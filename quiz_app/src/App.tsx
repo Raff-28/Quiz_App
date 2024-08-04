@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, useNavigate, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { QuizPage } from './pages/QuizPage';
 import { useEffect, useState } from 'react';
@@ -30,4 +30,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
